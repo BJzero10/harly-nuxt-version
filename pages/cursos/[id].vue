@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>CURSO: {{ $route.params.id }}</h1>
+    <h1 class="text-white">CURSO: {{ $route.params.id }}</h1>
   </div>
 </template>
 

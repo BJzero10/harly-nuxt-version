@@ -1,11 +1,11 @@
 <template>
-  <div class="flex flex-wrap items-center justify-center mr-10 ml-10">
+  <div class="flex flex-wrap items-center justify-center lg:mx-10 mx-6">
     <template v-for="(curso, idx) in cursos" :key="'nav-itm-' + idx">
       <div
-        class="w-80 bg-white border rounded-2xl border-[#2A8E9D] m-4 shadow-lg shadow-[#2a8e9d7e]"
+        class="w-80 bg-base-100 border rounded-2xl border-primary m-4 shadow-lg shadow-[#2a8e9d7e]"
       >
         <h2 class="text-center text-black font-bold text-lg pb-3 mt-4">
-          {{ curso.nombre }}
+          {{ curso.name }}
         </h2>
         <h3 class="ml-5 pb-1 text-black font-medium">
           Asesores ({{ curso.num_asesores }})
@@ -27,7 +27,7 @@
             </div>
           </div>
           <div class="avatar placeholder m-0">
-            <div class="w-12 bg-[#2a303c] text-neutral-content">
+            <div class="w-12 bg-neutral text-neutral-content">
               <span class="text-white">+7</span>
             </div>
           </div>
@@ -47,12 +47,13 @@
           </svg>
           <h3 class="ml-2 text-black font-bold">{{ curso.rating }}/5</h3>
         </div>
-        <div class="flex flex-col items-center">
-          <div class="bg-[#2A8E9D] w-48 rounded-full text-center mb-4">
-            <button class="text-white p-3 font-bold text-lg">
-              Solicitar asesoria
-            </button>
-          </div>
+        <div class="flex flex-col items-center mb-3">
+          <NuxtLink
+            class="btn btn-primary normal-case text-lg px-10 rounded-full text-white"
+            :to="`/cursos/${curso.name}`"
+          >
+            Solicitar asesoria
+          </NuxtLink>
         </div>
       </div>
     </template>
@@ -61,9 +62,7 @@
 
 <script>
 export default {
-  props: {
-    cursos: { default: [] },
-  },
+  props: ["cursos"],
 };
 </script>
 

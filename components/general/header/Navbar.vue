@@ -1,6 +1,6 @@
 <template>
-  <div class="navbar-container md:px-3 sm:1">
-    <div class="navbar bg-base-100">
+  <div class="navbar-container text-neutral-content md:px-3 sm:1 bg-neutral">
+    <div class="navbar bg-neutral">
       <div class="navbar-start">
         <div class="dropdown">
           <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -21,17 +21,22 @@
           </label>
           <ul
             tabindex="0"
-            class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+            class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-neutral rounded-box w-52"
           >
             <li>
-              <NuxtLink class="active:bg-[#ff5144]" to="/">Inicio</NuxtLink>
-              <NuxtLink class="active:bg-[#ff5144]" to="/nosotros"
+              <NuxtLink class="active:bg-secondary" to="/">Inicio</NuxtLink>
+              <NuxtLink class="active:bg-secondary" to="/nosotros"
                 >Nosotros</NuxtLink
               >
-              <NuxtLink class="active:bg-[#ff5144]" to="/cursos"
+              <NuxtLink class="active:bg-secondary" to="/cursos"
                 >Cursos</NuxtLink
               >
             </li>
+            <button
+              class="btn btn-sm bg-accent normal-case font-bold mx-2.5 rounded-3xl text-neutral hover:text-white hover:bg-secondary mt-2 sm:hidden"
+            >
+              Conviértete en asesor
+            </button>
           </ul>
         </div>
         <NuxtLink to="/" class="btn btn-ghost normal-case w-32"
@@ -41,17 +46,17 @@
       <div class="navbar-center hidden lg:flex">
         <ul class="menu menu-horizontal p-0">
           <li>
-            <NuxtLink class="active:bg-[#ff5144]" to="/">Inicio</NuxtLink>
-            <NuxtLink class="active:bg-[#ff5144]" to="/nosotros"
+            <NuxtLink class="active:bg-secondary" to="/">Inicio</NuxtLink>
+            <NuxtLink class="active:bg-secondary" to="/nosotros"
               >Nosotros</NuxtLink
             >
-            <NuxtLink class="active:bg-[#ff5144]" to="/cursos">Cursos</NuxtLink>
+            <NuxtLink class="active:bg-secondary" to="/cursos">Cursos</NuxtLink>
           </li>
         </ul>
       </div>
       <div class="navbar-end btns-content">
         <button
-          class="btn btn-sm bg-[#ffca38] normal-case font-bold mx-2.5 rounded-3xl text-[#2a303c] hover:text-white hover:bg-[#ff5144]"
+          class="btn btn-sm bg-accent normal-case font-bold mx-2.5 rounded-3xl text-neutral hover:text-white hover:bg-secondary sm:visible invisible"
         >
           Conviértete en asesor
         </button>
@@ -72,7 +77,7 @@
                   d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"
                 />
               </svg>
-              <span class="badge badge-xs indicator-item bg-[#ff5144]"></span>
+              <span class="badge badge-xs indicator-item bg-secondary"></span>
             </div>
           </label>
         </button>

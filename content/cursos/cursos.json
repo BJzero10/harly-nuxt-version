@@ -1,0 +1,194 @@
+[
+    {
+      "id": 1,
+      "name": "Programación 1",
+      "num_asesores": 20,
+      "rating": 4.8,
+      "carrera": "Ingeniería Industrial",
+      "universidad": "UDEP"
+    },
+    {
+      "id": 2,
+      "name": "Programación 2",
+      "num_asesores": 13,
+      "rating": 4.7,
+      "carrera": "Ingeniería Industrial",
+      "universidad": "UDEP"
+    },
+    {
+      "id": 3,
+      "name": "Programación 3",
+      "num_asesores": 21,
+      "rating": 4.6,
+      "carrera": "Arquitectura",
+      "universidad": "UDEP"
+    },
+    {
+      "id": 4,
+      "name": "Programación 4",
+      "num_asesores": 5,
+      "rating": 3,
+      "carrera": "Arquitectura",
+      "universidad": "UDEP"
+    },
+    {
+      "id": 5,
+      "name": "English 1",
+      "num_asesores": 7,
+      "rating": 4.9,
+      "carrera": "Arquitectura",
+      "universidad": "UDEP"
+    },
+    {
+      "id": 6,
+      "name": "Matemáticas 1",
+      "num_asesores": 8,
+      "rating": 5,
+      "carrera": "Arquitectura",
+      "universidad": "UDEP"
+    },
+    {
+      "id": 7,
+      "name": "Literatura",
+      "num_asesores": 8,
+      "rating": 4.8,
+      "carrera": "Arquitectura",
+      "universidad": "UDEP"
+    },
+    {
+      "id": 8,
+      "name": "Matemáticas 2",
+      "num_asesores": 20,
+      "rating": 4.8,
+      "carrera": "Ingeniería de Sistemas",
+      "universidad": "UDEP"
+    },
+    {
+      "id": 9,
+      "name": "Matemáticas 3",
+      "num_asesores": 20,
+      "rating": 4.5,
+      "carrera": "Ingeniería de Sistemas",
+      "universidad": "UDEP"
+    },
+    {
+      "id": 10,
+      "name": "English 2",
+      "num_asesores": 10,
+      "rating": 4.3,
+      "carrera": "Ingeniería de Sistemas",
+      "universidad": "UDEP"
+    },
+    {
+      "id": 11,
+      "name": "English 3",
+      "num_asesores": 20,
+      "rating": 4.1,
+      "carrera": "Ingeniería Industrial",
+      "universidad": "UDEP"
+    },
+    {
+      "id": 12,
+      "name": "English 4",
+      "num_asesores": 20,
+      "rating": 4.7,
+      "carrera": "Ingeniería Industrial",
+      "universidad": "UDEP"
+    },
+    {
+      "id": 13,
+      "name": "Fisica 1",
+      "num_asesores": 20,
+      "rating": 4.8,
+      "carrera": "Mecatrónica",
+      "universidad": "UTEC"
+    },
+    {
+      "id": 14,
+      "name": "Electromagnetismo",
+      "num_asesores": 13,
+      "rating": 4.7,
+      "carrera": "Mecatrónica",
+      "universidad": "UTEC"
+    },
+    {
+      "id": 15,
+      "name": "Estática",
+      "num_asesores": 21,
+      "rating": 4.6,
+      "carrera": "Electrónica",
+      "universidad": "UTEC"
+    },
+    {
+      "id": 16,
+      "name": "Dinámica",
+      "num_asesores": 5,
+      "rating": 3,
+      "carrera": "Electrónica",
+      "universidad": "UTEC"
+    },
+    {
+      "id": 17,
+      "name": "Cicuitos Eléctricos",
+      "num_asesores": 7,
+      "rating": 4.9,
+      "carrera": "Electrónica",
+      "universidad": "UTEC"
+    },
+    {
+      "id": 18,
+      "name": "Cicuitos Digitales",
+      "num_asesores": 8,
+      "rating": 5,
+      "carrera": "Electrónica",
+      "universidad": "UTEC"
+    },
+    {
+      "id": 19,
+      "name": "Tesis 1",
+      "num_asesores": 8,
+      "rating": 4.8,
+      "carrera": "Electrónica",
+      "universidad": "UTEC"
+    },
+    {
+      "id": 20,
+      "name": "Tesis 2",
+      "num_asesores": 20,
+      "rating": 4.8,
+      "carrera": "Ciencias de la Computación",
+      "universidad": "UTEC"
+    },
+    {
+      "id": 21,
+      "name": "Tópicos de Ingeniería",
+      "num_asesores": 20,
+      "rating": 4.5,
+      "carrera": "Ciencias de la Computación",
+      "universidad": "UTEC"
+    },
+    {
+      "id": 22,
+      "name": "Sistemas Embebidos",
+      "num_asesores": 10,
+      "rating": 4.3,
+      "carrera": "Ciencias de la Computación",
+      "universidad": "UTEC"
+    },
+    {
+      "id": 23,
+      "name": "Circuitos electrónicos",
+      "num_asesores": 20,
+      "rating": 4.1,
+      "carrera": "Mecatrónica",
+      "universidad": "UTEC"
+    },
+    {
+      "id": 24,
+      "name": "Emprendedores en Acción",
+      "num_asesores": 20,
+      "rating": 4.7,
+      "carrera": "Mecatrónica",
+      "universidad": "UTEC"
+    }
+  ]

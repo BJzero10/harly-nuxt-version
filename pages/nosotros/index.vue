@@ -1,13 +1,16 @@
 <template>
-  <div class="bg-white">
-    <div class="w-screen h-96 overflow-hidden">
-      <img src="../../assets/nosotros/banner.jpg" alt="banner" />
+  <div class="bg-base-100">
+    <div>
+      <img
+        class="h-96 w-full object-cover"
+        src="../../assets/nosotros/banner.jpg"
+        alt="banner"
+      />
     </div>
-
-    <div class="pt-8 pb-16 mr-10 ml-10">
-      <div class="flex place-content-evenly">
+    <div class="mt-6 lg:mb-16 md:mx-10 mx-3 mb-8">
+      <div class="flex flex-wrap">
         <div
-          class="card w-96 bg-orange-200 opacity-60 shadow-xl shadow-orange-200/50 ml-10"
+          class="card bg-orange-200 opacity-60 shadow-xl shadow-orange-200/50 mx-auto mt-2"
         >
           <div class="card-body w-96">
             <h2 class="text-center text-black font-bold text-lg">Misión</h2>
@@ -18,26 +21,27 @@
           </div>
         </div>
         <div
-          class="card w-96 bg-orange-200 opacity-60 shadow-xl shadow-orange-200/50 ml-10"
+          class="card bg-orange-200 opacity-60 shadow-xl shadow-orange-200/50 mx-auto mt-2"
         >
           <div class="card-body w-96">
             <h2 class="text-center text-black font-bold text-lg">Visión</h2>
             <p class="text-justify text-black">
               Talento disponible al alcance de toda nuestra comunidad.
+              <br /><br />
             </p>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="pr-10 pl-10">
+    <div class="px-10">
       <div>
         <h2 class="text-center font-bold text-black text-3xl">
           Nuestros Valores
         </h2>
       </div>
-      <div class="flex place-content-around pt-10">
-        <div class="w-96 bg-slate-100 rounded-2xl">
+      <div class="flex flex-wrap mt-6">
+        <div class="w-96 bg-slate-100 rounded-2xl mx-auto mt-2">
           <div class="flex place-content-center pt-6">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -61,7 +65,7 @@
             </p>
           </div>
         </div>
-        <div class="w-96 bg-slate-100 rounded-2xl">
+        <div class="w-96 bg-slate-100 rounded-2xl mx-auto mt-2">
           <div class="flex place-content-center pt-6">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -85,7 +89,7 @@
             </p>
           </div>
         </div>
-        <div class="w-96 bg-slate-100 rounded-2xl">
+        <div class="w-96 bg-slate-100 rounded-2xl mx-auto mt-2">
           <div class="flex place-content-center pt-6">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -117,9 +121,8 @@
     <div class="pt-10">
       <h2 class="text-center font-bold text-black text-3xl">Nuestro Equipo</h2>
     </div>
-
-    <div class="flex place-content-evenly pt-10 pb-5">
-      <div class="w-96 bg-blue-900 rounded-xl">
+    <div class="flex flex-wrap pt-10 pb-5">
+      <div class="lg:w-96 w-64 bg-blue-900 rounded-xl mx-auto mt-2">
         <figure>
           <img
             class="rounded-lg h-full"
@@ -134,7 +137,7 @@
           <p class="text-center text-white">CDO (Chief Data Officer)</p>
         </div>
       </div>
-      <div class="w-96 bg-[#ff5144] rounded-xl">
+      <div class="lg:w-96 w-64 bg-secondary rounded-xl mx-auto mt-2">
         <figure>
           <img
             class="rounded-lg h-full"

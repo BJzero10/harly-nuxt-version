@@ -15,10 +15,9 @@
               >Just started following you</span
             >
           </div>
-
           <div>
             <div class="notifications__item__option delete js-option">
-              <i class="bx bxs-trash-alt"></i>
+              <font-awesome-icon icon="trash-can" color="white" />
             </div>
           </div>
         </div>
@@ -112,7 +111,13 @@
 </template>
 
 <script>
-export default {};
+import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { faTrashCan } from "@fortawesome/free-solid-svg-icons";
+library.add(faTrashCan);
+export default {
+  components: { FontAwesomeIcon },
+};
 </script>
 
 <style scoped>
